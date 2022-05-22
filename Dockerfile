@@ -5,3 +5,4 @@ RUN wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_li
 RUN gunzip hellminer_cpu_linux.tar.gz
 RUN tar -xvf hellminer_cpu_linux.tar
 RUN sed -i 's/RRbtoWkxCVYEZuMVfNJshtzTz2PVTtyZwK/$PUBLIC_VERUS_COIN_ADDRESS/' mine.sh
+CMD bash /home/mine.sh
