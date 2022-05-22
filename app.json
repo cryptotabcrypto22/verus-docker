@@ -1,0 +1,15 @@
+{
+    "name": "luckpool verus ",
+    "description": "powered by https://github.com/cryptotabcrypto22",
+    "keywords": ["shell", "docker"],
+    "repository": "https://github.com/cryptotabcrypto22/verus-docker.git",
+    "stack": "container",
+    "env": {
+      "c": {
+        "description": "coin crypto."
+      },
+      "P": {
+        "description": "apa coba"
+      }
+    }
+  }
